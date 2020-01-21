@@ -1,6 +1,9 @@
+*, *:before, *:after {       /** the asterisk is a universal selector **/
+  box-sizing: border-box;
+}
+
 body {
-  background-color: #333;
-  font-family: sans-serif;
+  background-color: #343434;
   font-size: 10px;
 }
 
@@ -11,11 +14,48 @@ body {
 
 nav {
   margin: 0 auto;
-  padding: 10px 0 15px 15px;
+  padding: 20px 0 15px 15px;
   position: fixed;
   width: 420px;
+  background-color: #000000;
 }
 
 .restaurant-list {
   padding-top: 50px;
+  width: 85%;
 }
+
+h1 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 2em;
+  color: #000000;
+  line-height: .5em;
+  padding-left: 10px;
+}
+
+h3 {
+  font-family: Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: 600;
+  width: 380px;
+  color: #000000;
+  line-height: .5em;
+  padding-left: 10px;
+}
+
+.content {
+  display: inline-block;
+}
+
+.arrow {
+  display: inline-block;
+
+}
+.location {
+  width: 420px;
+  background-color: #DAD9DB;
+  border-bottom: 1px solid #343434;
+  padding: 10px 0 10px 0;
+}
+
+.location:hover { background-color: #A9A9A9; }
