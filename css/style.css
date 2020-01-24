@@ -21,8 +21,8 @@ nav {
 }
 
 .restaurant-list {
+  width: 420px;
   padding-top: 50px;
-  width: 85%;
 }
 
 h1 {
@@ -52,7 +52,7 @@ h3 {
 
 }
 .location {
-  width: 420px;
+  width: 100%;
   background-color: #DAD9DB;
   border-bottom: 1px solid #343434;
   padding: 10px 0 10px 0;
