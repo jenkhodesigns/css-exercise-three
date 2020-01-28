@@ -29,8 +29,8 @@ h1 {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 2em;
   color: #000000;
-  line-height: .5em;
-  padding-left: 10px;
+  padding: 10px 0 0 15px;
+  line-height: 24px;
 }
 
 h3 {
@@ -39,8 +39,8 @@ h3 {
   font-weight: 600;
   width: 380px;
   color: #000000;
-  line-height: .5em;
-  padding-left: 10px;
+  padding: 0 0 10px 15px;
+  line-height: 24px;
 }
 
 .content {
@@ -48,7 +48,8 @@ h3 {
 }
 
 .arrow {
-  display: inline-block;
+  float: right;
+  padding: 28px 15px 0 0;
 
 }
 .location {
